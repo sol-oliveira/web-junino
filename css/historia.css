@@ -1,0 +1,23 @@
+.figura_historia{
+	width: 25%;
+	height: 300px;	
+}
+#img_historia{
+	width: 400px;
+	height: 400px;
+	margin-top: 40px;
+	border-radius: 2em;
+	margin-left:210px;
+}
+#div_legenda{
+	width: 135%;
+	color: #8B0A50;
+	margin-left:210px; 
+}
+.texto_historia{
+	text-align: justify;	
+	color: #8B0A50;
+	margin-left: 350px;
+	width: 600px;
+	margin-top: -15px;
+}

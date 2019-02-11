@@ -1,0 +1,28 @@
+#sobre{
+	font-size: 200%;
+	margin-bottom:-50px;
+	margin-left:35%;
+	color: 	 #8B0A50;
+	}
+#logo{
+	width:50px;	
+	border-radius: 1em;
+	float: right;
+	position: relative;
+	margin-right: 190px;
+	}
+li{
+	color:#9932CC;
+	font-size:80%;
+}
+#topicos{
+	color:#9932CC;
+	font-size: 100%;
+}
+.figura_logo{
+	width:100px;
+	height:150px;
+}
+.canvas{
+	width: 300px;	
+}

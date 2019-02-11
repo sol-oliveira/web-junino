@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Costumes</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+	<link rel="stylesheet" type="text/css" href="css/costumes.css"> 
+	<link href="https://fonts.googleapis.com/css?family=Artifika|Indie+Flower" rel="stylesheet">
+	<link rel="shortcut icon"href="imagens/home/logo2.ico">
+</head>
+<body onload ="draw()">
+	<div id ="container">
+		<div id="cabecalho"> 		
+			<h1 id="tit_cabecalho">	<a class="titulo"> Costumes </a></h1>
+		</div>
+		<div id="conteudo">   	 	
+			<div id="item">		
+				<div class="item1"> 
+					<h1>Fogueira</h1>
+					<figure id="costumes_figura">
+						<img class="img_costumes" src="imagens/costumes/fogueira1.jpg">	
+					</figure>
+
+					<p><em>Fazem parte da tradição pagã como forma de comemorar o solstício de verão. Na Idade Média, durante o processo de cristianização, a fogueira passou a ser um dos elementos da festa de São João Batista.
+					</em></p>			
+				</div>
+
+
+				<div class="item2"> 
+					<h1>Dança</h1>
+					<figure id="costumes_figura">
+						<img class="img_costumes" src="imagens/costumes/danca.jpg">
+						<figcaption><a href="cadastro.html">cadastrar</a></figcaption>
+					</figure>
+					<p><em>Tem origem numa dança popular realizada por camponeses europeus durante a Idade Média. Foi trazida para o Brasil no século XIX, onde se fundiu com danças e tradições culturais brasileiras. Representa de forma animada, principalmente, os principais aspectos da vida no meio rural. A quadrilha varia muito de região para região.
+					</em></p>
+				</div>
+
+				<div class="item3"> 
+					<h1>Balão</h1>
+					<figure id="costumes_figura">
+						<img class="img_costumes" src="imagens/costumes/balao.jpg">
+					</figure>
+					<p><em>Tradição trazida pelos portugueses, está relacionada ao uso das fogueiras nas festas juninas. Em Portugal, principalmente na cidade do Porto, soltavam 5 balões para anunciar o início da festa de São João. Em função do risco de incêndio, os balões estão proibidos por lei no Brasil.
+					</em></p>
+				</div>
+			</div>
+		</div>	
+		<div class="canvas">
+			<a href="index.html"><canvas id="canvas" height: 30px width: 50px  float: left 0px></canvas></a>
+		</div>
+	</div> 
+	<script type="text/javascript">
+		function draw() {
+			var canvas = document.getElementById('canvas');
+			if (canvas.getContext){
+				var ctx = canvas.getContext('2d');
+
+				ctx.beginPath();
+				ctx.moveTo(100,75);
+				ctx.lineTo(125,100);
+				ctx.lineTo(125,50);
+				ctx.fill();
+			}
+		}
+	</script>	
+</body>
+</html>

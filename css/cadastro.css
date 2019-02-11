@@ -1,0 +1,26 @@
+.formulario{
+	height: 200px;
+	margin-top: 5px;
+	font-size: 110%;
+	margin-left: 300px;
+	color: #8B0A50;
+	}
+h2{
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; /*alternando pra frente e pra trás*/
+}
+.rodape{		
+	margin-top: 400px;
+	position: relative;
+	color:  #8B0A50;
+   	font-size:  20px;	
+}
+p{
+	font-size: 25px;
+}
+input. ra{
+	height: 30px;
+	padding: 0px;
+}

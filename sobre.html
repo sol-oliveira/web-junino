@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sobre</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/sobre.css">	
+	<link href="https://fonts.googleapis.com/css?family=Artifika|Indie+Flower" rel="stylesheet">
+	<link rel="shortcut icon" href="imagens/home/logo2.ico">
+</head>
+<body  onload ="draw()">
+	<div id ="container">
+		
+		<div id="cabecalho"><figcaption class="figura_logo"><img id="logo" src="imagens/sobre/logo.jpg">
+		</figcaption> </div>	
+		<!-- ################################# -->
+		<div id="body_">		
+			<div id="sobre">	
+				<h5><p>Análise e Desenvolvimento de Sistemas</p> 
+					<p>Disciplina de Desenvolvimento Web I</p>
+					<p>Aluna: Solemar Oliveira
+					</p>
+					<p>Profª Dr. Ana Paula Müller Giancoli
+					</p> 				 
+					<p id="topicos">Tópicos Desenvolvidos:</p>
+					<li>Estrutura Semântica do HTML</li>
+					<li>Links de estilo, Hiperlinks e Cores</li>
+					<li>Seletores de identificadores, classe</li>
+					<li>Propriedades CSS de Fontes</li>
+					<li>Propriedades CSS de Layout</li>
+					<li>Formulários</li>
+					<li>Animações com CSS</li>
+					<li>Tags de Listas e Tabelas</li>
+					<li>Canvas</li>
+					<li>JavaScript</li>			 
+				</h5>
+			</div>
+
+		</div>
+		<a href="index.html"><canvas id="canvas" height: 70px width: 150px float: left 0px></canvas></a> 
+	</div>	
+	<script type="text/javascript">
+		function draw() {
+			var canvas = document.getElementById('canvas');
+			if (canvas.getContext){
+				var ctx = canvas.getContext('2d');
+
+				ctx.beginPath();
+				ctx.moveTo(100,75);
+				ctx.lineTo(125,100);
+				ctx.lineTo(125,50);
+				ctx.fill();
+			}
+		}
+	</script>	
+</body>
+</html>

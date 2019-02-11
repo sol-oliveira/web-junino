@@ -1,0 +1,163 @@
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	margin: 50;
+	border-radius: 20px;
+	width: 70%;
+	height: 70%x;
+	margin-left: 230px;
+}
+h1, h2, h3 {
+	font-weight: 300;
+	color: #8B0A50;
+}
+h5{
+	color: #8B0A50;
+}
+.clearfix {
+	clear: both;
+}
+ul, ol, td, th, p{
+	color: #8B0A50;
+}
+.section-content {
+	width: 100%;
+	overflow: hidden;
+	margin-left: 10px;
+}
+.section-title {
+	font-size: 30px;
+	line-height: 38px;
+	border-bottom: 1px solid #000;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+	padding-bottom: -10px;
+	margin-top: 0px;
+	margin-left: 300px;
+}
+.recipe {
+	padding: 0.75rem;
+	line-height: 25px;
+	width: 800px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.recipe-summary {
+	width: 50%;
+	vertical-align: middle;
+	padding: 1px;
+	margin-left: 250px;
+}
+.recipe-title {
+	font-size: 50px;
+	line-height: 1em;
+	margin-bottom: 1rem;
+	color:  #8B0A50;
+}
+img{
+	float: right;
+	border-radius: 4em;
+	width: 10%;
+}
+.recipe-notes {
+	margin: 1.5rem 0;
+	padding: 0;
+	list-style-type: none;
+	display: inline;
+}
+.recipe-note {
+	font-size: 1.0rem;
+	margin: 1rem 1rem 1rem;
+	display: inline;
+	font-size: 20px;
+	margin-left: 110px;
+}
+.recipe-image {
+	width: 110%;		
+	margin-right: 100px;
+	padding: 1.25rem;
+	height: 100%;
+}
+.recipe-ingredients {
+	overflow: hidden;
+}
+.recipe-ingredients li {
+	margin-left: 120px;	
+}
+.recipe-directions {
+	margin: 0;
+	padding: 10px 10px 0px 0px;
+	list-style-type: none;
+	text-align: justify;
+	font-size: 20px;
+	margin-left: -70px;
+}
+.fa{
+	color: #ccc;
+	color: rgb(0,0,0,0.3);
+	margin-right: 0.3em;
+	font-size: 0.3em;
+	vertical-align: middle;
+	width: 28px;
+}
+.recipe-directions li{
+	counter-increment: step-counter;
+	margin-bottom: 3em;
+	font-size: 30px
+}
+.recipe-directions li span{
+	font-size: 20px;
+	display: block;
+	margin:  -1.6em 0 0 3.3em;
+}
+.recipe-directions li ::before{
+	content: counter(step-counter);
+	font-size: 1.2em;
+	color: #000;
+	color: rgb(0,0,0,0.5);
+	padding: 1px 13px ;
+	border: 1px solid rgba(0,0,0.5,0.5);
+	border-radius: 50%;
+}
+.t1 {
+	margin: 5% auto;
+	border: 2px solid  #8B0A50;
+	table-layout: auto; /* fixed */
+	width: 50%;
+	caption-side: bottom; /* top*/
+	border-style: solid; /* dashed; , dotted */
+	margin-left: 400px;
+}
+td {
+	border: 1px solid black;
+	empty-cells: show;
+	background-color:#ffcccc;
+	font-size: 20px;
+}
+#td1 {
+	background-color:#ffcccc;
+	text-align: center;
+	font-weight: bold;	
+}
+#container{
+	background: url(../imagens/home/bandeiras.jpg) repeat-y ;
+	width: 100%;	
+	border: solid ;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	background-color:#ffcccc;
+    border-width: 0px 1px 4px 1px; 
+    border-color: #8B0A50;
+    padding: 10px;
+}
+li{
+	font-size: 20px;
+	margin-left: 270px;
+	padding: 10px;
+}
+span{
+	padding: 0px;
+}
+.fa-exclamation-circle{
+	margin-left: 200px;
+}

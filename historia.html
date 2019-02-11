@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Historia</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/historia.css">	
+	<link href="https://fonts.googleapis.com/css?family=Artifika|Indie+Flower" rel="stylesheet">
+	<link rel="shortcut icon" href="imagens/home/logo2.ico">
+</head>
+<body onload ="draw()">
+	<div id ="container">
+		<div id="cabecalho"> 		
+			<h1 id="tit_cabecalho">
+				<a class="titulo"> ORIGEM </a></h1>
+			</div>
+
+			<div id="body_">
+				<div class="figura_historia">	 
+					<figure><img id="img_historia" src="imagens/historia/historia.jpg">
+						<div id="div_legenda">
+							<figcaption><h5>A Festa Junina tem tradição pagã, mas absorveu características do catolicismo!</h5></figcaption>	</div>			
+						</figure>
+					</div>
+					<div class="texto_historia">
+						<h4>
+							<p>Celebradas no Brasil desde de o século XVII, as Festa Juninas constituem a segunda maior comemoração realizada pelos brasileiros, ficando atrás apenas do Carnaval.</p> 	
+							<p>	De acordo com os historiadores, a festa tem origem no culto aos deuses pagãos, mas sofreu influências do catolicismo e hoje há forte associação com os santos católicos, como Santo Antônio, São João e São Pedro.</p>
+							<p>Com a chegada dos portugueses, as festas, que já eram típicas na Europa, também desembarcaram no Brasil e aos poucos foram se misturando com elementos próprios do interior do país e das tradições sertanejas. Comidas típicas, danças e enfeites utilizados nas festas de hoje são uma junção de partes da cultura africana, europeia e indígena.</p>		
+							<p>Comidas típicas, danças e enfeites utilizados nas festas de hoje são uma junção de partes da cultura africana, europeia e indígena.</p>	
+							<p>Atualmente, há uma grande valorização das festas juninas na região Nordeste. Em Campina Grande, na Paraíba, por exemplo, acontece o maior festejo do país, com queima de fogos, fogueira gigante, concurso de quadrilhas e diversas barracas típicas com jogos e comidas.</p>	  
+						</h4>
+					</div>
+				</div>
+<a href="index.html"><canvas id="canvas" height: 70px width: 150px float: left 0px></canvas></a>
+		</div>
+		 
+	</div>
+</div> 
+
+<script type="text/javascript">
+		function draw() {
+			var canvas = document.getElementById('canvas');
+			if (canvas.getContext){
+				var ctx = canvas.getContext('2d');
+
+				ctx.beginPath();
+				ctx.moveTo(100,75);
+				ctx.lineTo(125,100);
+				ctx.lineTo(125,50);
+				ctx.fill();
+			}
+		}
+	</script>
+
+		</body>
+		</html>

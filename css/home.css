@@ -1,0 +1,47 @@
+﻿.menu{
+	margin-top: 10px;
+	padding: 20px 20px ;
+	text-decoration: none;/*sem barra do link*/
+	color: #8B0A50;
+	margin:30px;
+	font-size:  20px;
+}
+#menu{
+	position: relative;
+	text-align: center;
+	height: 100px;	
+	padding-bottom: 20px;
+}
+.div_figura{
+	width: 200px;
+	float: left;
+	align-items: center;
+	padding: 10px;
+}
+.figura{	
+	width: 150px;
+	border-radius: 5em;
+	position: static;
+}
+#div_video{	
+	width: 200px;
+	margin-left: 25%;
+	padding: 10px;
+	margin-top: 20px;
+	
+}
+video {
+	width: 950px;
+	opacity: 0.7;	
+}
+h4{
+	color:  #8B0A50;
+	font-size: 20px;
+	padding: 10px;
+}
+h2{
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; /*alternando pra frente e pra trás*/
+}
